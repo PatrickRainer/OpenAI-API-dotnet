@@ -11,7 +11,7 @@ namespace OpenAI_Tests
 		[SetUp]
 		public void Setup()
 		{
-			OpenAI_API.APIAuthentication.Default = new OpenAI_API.APIAuthentication(Environment.GetEnvironmentVariable("TEST_OPENAI_SECRET_KEY"));
+			OpenAI_API.APIAuthentication.Default = new OpenAI_API.APIAuthentication(Environment.GetEnvironmentVariable("TEST_OPENAI_SECRET_KEY", EnvironmentVariableTarget.User));
 		}
 
 		[Test]
