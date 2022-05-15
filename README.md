@@ -6,7 +6,7 @@ A simple C# .NET wrapper library to use with OpenAI's GPT-3 API.
 This is a Fork from **OkGoDoIt**. Thank you for the original work. But it seems that the repository is not maintained anymore and the creater seems not active anymore. Due a few changes in the OpenAI, some adjustments were needed. Feel free to contribute.
 
 ## NuGet
-~~The Package is available as NuGetPackage PrDevstudio.OpenAI-API-dotnet.~~
+Install-Package PrDevStudio.OpenAIWrapper
 
 ## Examples
 
